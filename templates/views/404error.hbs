@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     {{>headerlinks}}
+    <title>Error Page</title>
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="container-fluid main_menu1">
+        <div class="row">
+            <div class="col-md-12 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 main_header_left align-item-center">
+                        <figure>
+                            <img src="https://cdn.dribbble.com/users/1408464/screenshots/6377404/404_illustration_4x.png" alt="" class="img-fluid" title="">
+                        </figure>
+                      </div>
+                    <div class="col-md-6 col-12 main_header_left">
+                        <h5>Wellcome to weather app</h5>
+                        <h1><b>{{errorPage}}</b></h1>
+                        <a href="/"><button>Back To Home</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ {{footer}}
+</body>
+
+
+</html>
